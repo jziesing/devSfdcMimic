@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    background: #01344e;
+    height: 60px;
+}
+.navBarLogo {
+    /*position: absolute;
+    margin-left: 10%;*/
+    vertical-align: middle;
+    display: block;
+    float: left;
+    margin-left: 40px;
+    cursor: pointer;
+    /*display: inline;
+    font-size: 13px;
+    height: 45px;*/
+    line-height: 17px;
+    padding: 10px 20px 10px;
+}
+.navBar {
+    display: inline;
+    margin-top: 23px;
+    margin: 32px 0 0 4px;
+    position: relative;
+}
+.nav ul {
+    list-style: none;
+    background-color: #01344e;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.nav li {
+    font-family: 'Oswald', sans-serif;
+    /*font-size: 1.2em;
+  line-height: 10px;*/
+    font-size: 16px;
+    line-height: 15px;
+    text-align: left;
+}
+
+.dropDown {
+    width: auto;
+}
+.nav li li {
+    font-size: .8em;
+    width: auto;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    border-bottom: 1px solid #888;
+    transition: .3s background-color;
+    padding: 5%;
+}
+.nav a:hover {
+    color: #2ac2ff;
+}
+.navBar li:nth-child(7) {
+    line-height: 27px;
+}
+.navBar li:nth-child(8) {
+    line-height: 27px;
+}
+
+.button-login {
+    display: inline-block;
+    background-color: #017ab4;
+    color: #fff
+}
+.button-login:hover {
+    cursor: pointer;
+}
+
+.button-signup {
+    display: inline-block;
+    background-color: #78bf3a;
+    color: #fff
+}
+
+
+.sliderElem {
+    position: absolute; left: 0px; top: 0px;
+}
+.backboardImg {
+    height: 320px;
+    position: absolute;
+}
+.sliderDeetDiv {
+
+    height: 320px; padding-right: 300px;
+}
+
+.sliderCntrl {
+    margin-top: 2%;
+}
+
+.ext-hero__tab {
+    background: rgba(255,255,255,0.3);
+    position: relative;
+    border: none;
+    display: block;
+    white-space: nowrap;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 0.3rem;
+    border-radius: 5px;
+    padding: 0.35rem;
+    outline: none;
+    color: #eee;
+}
+.ext-hero__tab:hover {
+    background-color: #0f9edd;
+}
+
+@media screen and (min-width: 650px) {
+    .nav li {
+        width: 130px;
+        border-bottom: none;
+        height: 50px;
+        /*line-height: 50px;
+    font-size: 1.4em;*/
+        padding-top: 20px;
+        font-size: 16px;
+        line-height: 15px;
+        display: inline-block;
+        margin-right: -4px;
+    }
+    .nav a {
+        border-bottom: none;
+    }
+    .nav>ul>li {
+        text-align: center;
+    }
+    .nav>ul>li>a {
+        padding-left: 0;
+    }
+    /* Sub Menus */
+    .nav li ul {
+        position: absolute;
+        display: none;
+        width: inherit;
+    }
+    .nav li:hover ul {
+        display: block;
+    }
+    .nav li ul li {
+        display: block;
+        font-size: 12px;
+        line-height: 11px;
+    }
+    .navBar li:nth-child(7) {
+        margin-left: 4%;
+        width: auto;
+    }
+    .navBar li:nth-child(8) {
+        margin-left: 1%;
+        width: auto;
+    }
+}
