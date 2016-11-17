@@ -12,10 +12,10 @@ class Slider extends React.Component {
           <div class="slds-is-relative slds-container--fluid">
               <ul>
                   <li class="slds-container--fluid sliderElem">
-                      <img src="imgs/slider/realNames/2016-11-lightning-1280x248-homepage-bkgrd.png" class="slds-container--fluid backboardImg" />
+                      <img src="http://res.cloudinary.com/hy4kyit2a/image/upload/2016-11-lightning-1280x248-homepage-bkgrd.png" class="slds-container--fluid backboardImg" />
                       <div class="slds-grid slds-is-relative slds-container--x-large slds-container--center slds-grid--vertical-align-center slds-p-horizontal--medium" >
                           <div class="slds-size--2-of-4">
-                              <img src="imgs/slider/realNames/2016-11-350x248-lightning_astro-homepage-img.png" />
+                              <img src="http://dfc-resources2-staging.s3.amazonaws.com/resources2/images/2016-11-350x248-lightning_astro-homepage-img.png" />
                           </div>
                           <div class="slds-size--2-of-4 slds-p-left--large">
 
