@@ -47,6 +47,7 @@ body {
 }
 .nav li li {
     font-size: .8em;
+    display: block;
     width: auto;
 }
 
@@ -85,7 +86,7 @@ body {
 
 
 .sliderElem {
-    position: absolute; left: 0px; top: 0px;
+    position: absolute; left: 0px; top: 0px; z-index: -1;
 }
 .backboardImg {
     height: 320px;
@@ -151,6 +152,7 @@ body {
     }
     .nav li ul li {
         display: block;
+        position: relative;
         font-size: 12px;
         line-height: 11px;
     }
